@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Damion|Great+Vibes|Pathway+Gothic+One|Paytone+One|Spinnaker&display=swap');
+
+.navBar {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-family: 'Spinnaker', sans-serif;
+  top: 0;
+  background-color: transparent;
+}
+
+.navBar h3{
+    color: white;
+    padding: 1em;
+}
+
+#link {
+  color: white;
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+#link:hover {
+  color: var(--green);
+  border-bottom: 2px solid var(--green);
+}
+
+#leftName {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: var(--spin);
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+#topNav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: .75rem;
+}
+
+
+
+.navBar a:hover {
+  color: var(--green);
+}
+
+.dropNav {
+  float: right;
+  /* overflow: hidden; */
+  display: none;
+  margin-right: 2vw;
+}
+
+#dropbtn {
+  background-color: transparent;
+  font-size: 20px;
+  color: var(--green);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  z-index: 1;
+  text-align: right;
+}
+
+.dropNav:hover .dropdown-content {
+  display: block;
+  margin-left: -130px;
+}
+
+.min-screen {
+  float: none;
+  color: black;
+  font-weight: normal;
+  padding: 5px 0px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 800px) {
+  .dropNav {
+    display: block;
+  }
+
+  .topNav {
+    display: none;
+  }
+  #leftName {
+    display: none;
+  }
+}

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Damion|Great+Vibes|Pathway+Gothic+One|Paytone+One|Spinnaker&display=swap');
+:root{
+  --darkblue: #0a024b;
+  --green: rgb(221, 218, 6);
+  --spin: 'Spinnaker',sans-serif;
+  --damion: 'Damion', cursive;
+  --lightgray:rgba(252, 252, 252, 0.76);
+
+}
+
+#welcome-page-container{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url('../images/pattern.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+#welcome-page {
+  min-height: 100vh;
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.welcomeHeader {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    text-transform: lowercase;
+    font-weight: bold;
+    letter-spacing: .15em;
+    background-color: rgba(0,0,0,.35);
+}
+  
+.typeWrite {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Arial',sans-serif;
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: .15em;
+  animation: 
+    typing 2.5s steps(50, end);
+}
+.welcome{
+  font-family: var(--spin);
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+}
+
+@keyframes typing {
+  from { width: 50% }
+  to { width: 100% }
+}
+  
+  
+.bottom {
+    padding: 0% 25% 0% 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+  
+
+
+
+@media screen and (min-width: 1100px) {
+
+  #welcome-page {
+    background-color:vwhite;
+    padding: 25vh 0vw 0vh 5vw;
+    justify-content: left;
+    display: flex;
+    width: 89vw !important;
+}
+}
+
+@media screen and (max-width: 800px) {
+  .bottom {
+    padding: 0% 25vw 0% 7vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  #welcome-page {
+    background-color:white;
+    padding: 25vh 0vw 0vh 5vw;
+    justify-content: left;
+    display: flex;
+    width: 89vw !important;
+  }
+
+  .typeWrite {
+    font-size: 8vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #welcome-page {
+    padding: 25vh 5.5vw 0vh 5.5vw;
+  }
+}
