@@ -1,48 +1,49 @@
 import React from 'react'
+import Sunset from '../images/IMG_0062.jpeg'
 import './about.css'
 
 const WhoAmI = () => {
   return (
     <div>
-    <div id='whoAmI'>
-      <div id="aboutContainer">
-       <div className ="typeWrite">A Little Bit About Me</div>
-       </div>
-      <div id='aboutText'>
-        <h2>Pleasure to meet you.</h2>
-        <p />
-        <p>
-          Hi! I'm Vanessa, a New York born and based full stack software
-          engineer with a background in restaurant management.
-          <p />
-          Working in the restaurant industry for over a decade, I enjoyed the
-          daily challenges that came along with managing teams of adults and
-          crafting exceptional guest experiences. I learned that I loved the
-          dynamic and collaborative nature of the work: filling in gaps and
-          jumping into different roles when needed to support the functioning of
-          my team, interacting with a variety of stakeholders and customer
-          personalities,gracefully<span> (and stealthily) </span>{' '}
-          troubleshooting problems, and learning how to do things faster, better
-          and cleaner each day to continually improve my craft. My time in
-          restaurants also enforced my passion for well thought out systems, and
-          the satisfaction that comes from the marriage of form, function and
-          aesthetics.
-          <p />
-          I transitioned into engineering because I knew I wanted to do
-          something bigger while still feeding my desire to build, fix, and
-          improve in a dynamic, creative, and collaborative setting. In the
-          summer of 2019, I enrolled in the The Grace Hopper program, an
-          intensive 17 week program centered on full stack JavaScript
-          development.
-          <p />
-          As a recent graduate, I am extremely motivated and open to any and all
-          opportunities.
-          <p />
-          If you are interested in working together, let's connect! You can
-          reach me by choosing one of the options to your left.
-        </p>
+      <div id='about'>
+        <div id='about-page-container'>
+          <div className='aboutHeader'>
+            <div className='typeWrite'>a little bit about me</div>
+          </div>
+          <div className='bottom'></div>
+          <section id='about-page-text-container'>
+            <img src={Sunset} alt='Williamsburg Sunset' />
+            <p id='about-page-text'>
+              <h3>a few fun facts</h3>
+              <br />
+              I'm a Brooklyn Native, I wanted to be an engineer, architect and
+              pilot as a kid, I learned to cook young and pursued being a chef
+              in my 20s, I learned Italian working in a kitchen with all Italian
+              grandmothers, I love Italy, its food, its wine, and its people, I
+              still cook, I like to build things, I never met a carb I didn't
+              like, I love being in New York as much as I love being away from
+              it, I love cleanliness, function, and good aesthetics.
+              <br />
+            </p>
+          </section>
+          <section id='professional-points'>
+            <h1>professional points</h1>
+            <p id='professional-points-text'>
+              I was hired at my first restaurant because the owner felt I was
+              'bright eyed and bushy-tailed.' It's been said that if I was a superhero, I'd be in multiple
+              places at once. I love putting teams together, watching how their
+              dynamics come together and seeing the resulting product. I like
+              the puzzles that come up while working and debugging them to make
+              things work and to make things better. I love building something
+              that connects with people, be it on a plate or on a screen. I
+              enjoy getting to do different things and learning about different
+              roles, their responsibilities and the accompanying perspective.
+            </p>
+          </section>
+        </div>
       </div>
-    </div>
+
+      <div></div>
     </div>
   )
 }

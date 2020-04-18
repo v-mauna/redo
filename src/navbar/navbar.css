@@ -4,15 +4,14 @@
   display: flex;
   font-weight: bold;
   justify-content: space-between;
-  position: fixed;
-  z-index: 1;
+  position: absolute;
   width: 100vw;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 12px;
   font-family: 'Spinnaker', sans-serif;
   top: 0;
-  background-color: transparent;
+  background-color: clear;
 }
 
 .navBar h3{
@@ -97,7 +96,7 @@
     display: block;
   }
 
-  .topNav {
+  #topNav {
     display: none;
   }
   #leftName {

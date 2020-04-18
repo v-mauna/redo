@@ -19,8 +19,9 @@ const Welcome = () => {
             <div id = "home">
                 <div id = "welcome-page-container">
                     <div className="welcomeHeader">
-                            <div className ="typeWrite">{greeting()}</div>
+                            <div className ="typeWrite">{greeting()}
                             <p className='welcome'> Welcome</p>
+                            </div>
                         </div>
                         <div className = "bottom">
                         </div>
