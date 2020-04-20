@@ -8,9 +8,8 @@ const WhoAmI = () => {
       <div id='about'>
         <div id='about-page-container'>
           <div className='aboutHeader'>
-            <div className='typeWrite'>a little bit about me</div>
+            a little bit about me
           </div>
-          <div className='bottom'></div>
           <section id='about-page-text-container'>
             <img src={Sunset} alt='Williamsburg Sunset' />
             <p id='about-page-text'>
@@ -29,15 +28,13 @@ const WhoAmI = () => {
           <section id='professional-points'>
             <h1>professional points</h1>
             <p id='professional-points-text'>
-              I was hired at my first restaurant because the owner felt I was
-              'bright eyed and bushy-tailed.' It's been said that if I was a superhero, I'd be in multiple
-              places at once. I love putting teams together, watching how their
-              dynamics come together and seeing the resulting product. I like
-              the puzzles that come up while working and debugging them to make
-              things work and to make things better. I love building something
-              that connects with people, be it on a plate or on a screen. I
-              enjoy getting to do different things and learning about different
-              roles, their responsibilities and the accompanying perspective.
+              I love building something that connects with people, be it on a
+              plate or on a screen.I love putting teams together, watching how
+              their dynamics come together and seeing the resulting product. I
+              like the puzzles that come up while working and debugging them to
+              make things work and to make things better. I enjoy getting to do
+              different things and learning about different roles, their
+              responsibilities and the accompanying perspective.
             </p>
           </section>
         </div>

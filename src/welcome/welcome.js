@@ -6,11 +6,11 @@ const greeting = () => {
     let today = new Date()
     let time = today.getHours()
     if(time > 5 && time < 12){
-        return `hi and good morning.`
+        return `good morning.`
     }else if(time >=12 && time < 18){
-        return 'hi and good afternoon.'
+        return 'good afternoon.'
     }
-    return 'hi and good evening.'
+    return 'good evening.'
     }
 
 const Welcome = () => {
@@ -19,8 +19,13 @@ const Welcome = () => {
             <div id = "home">
                 <div id = "welcome-page-container">
                     <div className="welcomeHeader">
-                            <div className ="typeWrite">{greeting()}
-                            <p className='welcome'> Welcome</p>
+                            <div >{greeting()}
+                            <br/>
+                            i'm vanessa, a full stack engineer
+                            <br/>
+                            based in brooklyn, ny.
+
+                            
                             </div>
                         </div>
                         <div className = "bottom">
