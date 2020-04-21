@@ -27,7 +27,7 @@ const Navbar = () => {
             id="link"
             to="/about"
           >
-            Who Am I?
+            About
             
           </Link>
           </li>

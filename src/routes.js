@@ -4,7 +4,6 @@ import Welcome from './welcome/welcome'
 import Navbar from './navbar/navbar'
 import WhoAmI from './about/about'
 import Projects from './projects/projects'
-
 class Routes extends Component {
   render () {
     return (
