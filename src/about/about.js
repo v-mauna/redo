@@ -8,7 +8,7 @@ const WhoAmI = () => {
       <div id='about'>
         <div id='about-page-container'>
           <div className=
-          'page-header'>
+          'about-page-header'>
             a little bit about me
           </div>
           <section id='about-page-text-container'>

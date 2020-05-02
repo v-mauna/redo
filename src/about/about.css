@@ -19,7 +19,7 @@
   background-repeat: no-repeat;
 }
 
-.page-header {
+.about-page-header {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -87,32 +87,31 @@
   width: 80vw;
   text-align: center;
 }
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   #about-page-container {
     background-size: contain;
   }
   .about-page-header {
-    height: 50vh;
+    height:50vh;
     font-size: 20px;
   }
   #about-page-text-container {
-    height: 100vh;
-    text-align: center;
-    text-align: center;
-    position: relative;
-    box-sizing: border-box;
+    height: 130vh;
+
   }
-  #about-page-text-container img {
-    position: absolute;
-    width: 100%;
-    margin: 0;
+
+}
+@media (max-width: 414px) {
+  #about-page-container {
+    background-size: contain;
   }
-  #about-page-text {
-    padding: 0;
-    width: 100%;
-    position: absolute;
-    box-sizing: border-box;
-    top: 20%;
-    text-align: center;
+  .about-page-header {
+    height:50vh;
+    font-size: 20px;
   }
+  #about-page-text-container {
+    height: 130vh;
+
+  }
+
 }

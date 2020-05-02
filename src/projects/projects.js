@@ -25,7 +25,7 @@ export default class Projects extends React.Component {
       <div>
         <div id='projects'>
           <div id='projects-page-container'>
-            <div className='page-header'>Projects</div>
+            <div className='projects-page-header'>Projects</div>
             <section id='projects-page-text-container'>
               <div id='projects-page-text'>
               <h1>user-minded developer</h1>
