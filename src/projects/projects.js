@@ -25,12 +25,15 @@ export default class Projects extends React.Component {
       <div>
         <div id='projects'>
           <div id='projects-page-container'>
-            <div className='projects-header'>Projects</div>
+            <div className='page-header'>Projects</div>
             <section id='projects-page-text-container'>
               <div id='projects-page-text'>
-                <h4> Technical Projects</h4>
+              <h1>user-minded developer</h1>
+                <p id="projects-text">A decade in hospitality taught me the importance of putting the guest first and thinking about what their needs are, and
+                how to satisfy those needs. I believe the same is important when building a website or an application - we should consider what the user needs, wants,
+                and what we can do to deliver both and more while still building something that has a visual appeal, interface, and architecture. </p>
                 <div id='projects-page-gallery'>
-                  <div className='content'>
+
                     <a
                       href='#selected-project'
                       onClick={() =>
@@ -42,21 +45,19 @@ export default class Projects extends React.Component {
                         }),document.getElementById('selected-project').style.display="flex")
                       }
                     >
-                      <div className='content-overlay' />
+                      <div id='img-container'>
                       <img
                         id='project-logo'
                         src={MindcraftLogo}
                         alt='Mindcraft Logo'
                       />
-
-                      <div className='content-details fadeIn-right'>
-                        <p id='overlay-text'>
-                          React Native App centered around Mental Health
-                        </p>
-                        <button>View Project</button>
-                      </div>
+                      <div id='img-overlay'>
+                      <p id='img-overlay-text'>View Project</p>
+                   
+                    </div>
+                    </div>
                     </a>
-                  </div>
+
                   <div className='content'>
                     <a href="#selected-project"
                       onClick={() =>(
@@ -68,20 +69,18 @@ export default class Projects extends React.Component {
                         }),document.getElementById('selected-project').style.display="block")
                       }
                     >
-                      <div className='content-overlay' />
+                      <div id='img-container'>
                       <img
                         id='project-logo'
                         src={WorkoutsRemixedLogo}
                         alt='Workouts Remixed Logo'
                       />
-
-                      <div className='content-details fadeIn-top'>
-                        <p id='overlay-text'>React Native Fitness App</p>
-                        <button>View Project</button>
-                      </div>
+                      <div id='img-overlay'>
+                      <p id='img-overlay-text'>View Project</p>
+                    </div>
+                    </div>
                     </a>
                   </div>
-                  <div className='content'>
                     <a
                       href='#selected-project'
                       onClick={() =>
@@ -93,19 +92,18 @@ export default class Projects extends React.Component {
                         }),document.getElementById('selected-project').style.display="block")
                       }
                     >
-                      <div className='content-overlay' />
+                      <div id='img-container'>
                       <img
                         id='project-logo'
                         src={STYPLogo}
                         alt='Shop Till You Pop Logo'
                       />
-                      <div className='content-details fadeIn-right'>
-                        <p id='overlay-text'>E-Commerce Website</p>
-                        <button>View Project</button>
-                      </div>
+                      <div id='img-overlay'>
+                      <p id='img-overlay-text'>View Project</p>
+                    </div>
+                    </div>
                     </a>
-                  </div>
-                  <div className='content'>
+                  
                     <a href='#selected-project'  onClick={() =>(
                         this.setState({
                           workoutsRemixed: false,
@@ -114,30 +112,27 @@ export default class Projects extends React.Component {
                           mindcraft: false,
                         }),document.getElementById('selected-project').style.display="block")
                       }>
-                      <div className='content-overlay' />
+                      <div id='img-container'>
                       <img
                         id='project-logo'
                         src={SNYCRLogo}
                         alt='Support NYC Restaurants Logo'
                       />
-                      <div className='content-details fadeIn-top'>
-                        <p id='overlay-text'>
-                          Website built in Response to NYC Pause
-                        </p>
-                        <button>View Project</button>
+                      <div id='img-overlay'>
+                      <p id='img-overlay-text'>View Project</p>
+                      </div>
                       </div>
                     </a>
-                  </div>
+                  
                 </div>
               </div>
             </section>
             <section id='selected-project'>
-            <div >
             {this.state.styp && <STYP />}
             {this.state.workoutsRemixed && <WorkoutsRemixed />}
             {this.state.mindcraft && <Mindcraft />}
             {this.state.snycr && <SNYCR />}
-          </div></section>
+</section>
           </div>
         </div>
        

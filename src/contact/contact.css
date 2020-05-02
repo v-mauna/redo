@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Damion|Great+Vibes|Pathway+Gothic+One|Paytone+One|Spinnaker&display=swap');
+:root {
+  --darkblue: #0a024b;
+  --green: rgb(221, 218, 6);
+  --spin: 'Spinnaker', sans-serif;
+  --damion: 'Damion', cursive;
+  --lightgray: rgba(252, 252, 252, 0.76);
+}
+
+#page-container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  background: url('../images/publicPhone.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact-page-header {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  font-size: 40px;
+  text-transform: lowercase;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+#contact-page-text-container {
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 90vh;
+  text-align: center;
+}
+
+#contact-page-text {
+  position: absolute;
+  line-height: 2em;
+  align-items: left;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  justify-content: space-evenly;
+}
+
+#contact-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 100vw;
+  text-align: center;
+}
+
+#contact-box{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 22.5%;
+  border: 2px solid ;
+  padding: 1em;
+  margin: 1em;
+}
+
+#contact-box:hover{
+  background-color: black;
+  color: white;
+}
+
+#email, #contact-box h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contact-box a {
+  color: rgb(204, 184, 7);
+  text-decoration: none;
+  font-weight: 800;
+  text-transform: lowercase;
+}
+
+ a:hover {
+  color: red;
+}
+
+@media (max-width: 1000px) {
+  #page-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+    background: url('../images/publicPhone.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .contact-page-header {
+    font-size: 20px;
+    height: 50vh;
+  }
+}
