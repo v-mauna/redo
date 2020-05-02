@@ -25,7 +25,7 @@ const Welcome = () => {
               <br />
               based in brooklyn, ny.
               <p id='home-text'><a href="/portfolio"> portfolio</a></p>
-              <p id='home-text'><a href="/reachme"> contact</a></p>
+              <p id='home-text'><a href="/reachMe"> contact</a></p>
             </div>
           </div>
         </div>
