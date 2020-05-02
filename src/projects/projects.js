@@ -31,7 +31,7 @@ export default class Projects extends React.Component {
               <h1>user-minded developer</h1>
                 <p id="projects-text">A decade in hospitality taught me the importance of putting the guest first and thinking about what their needs are, and
                 how to satisfy those needs. I believe the same is important when building a website or an application - we should consider what the user needs, wants,
-                and what we can do to deliver both and more while still building something that has a visual appeal, interface, and architecture. </p>
+                and what we can do to deliver both and more while still building something that has visual appeal, a friendly interface, and clean, well-thought out architecture. </p>
                 <div id='projects-page-gallery'>
 
                     <a

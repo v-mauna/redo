@@ -62,19 +62,22 @@
   font-size: 20px;
 }
 
-@keyframes typing {
-  from { width: -100% }
-  to { width: -50%}
+#home-text{
+  font-size: 12px;
+  border-bottom: 1px solid white;
+  width: 8vw;
+  padding: 1em;
+  text-align: center;
 }
-  
-  
-.bottom {
-    padding: 0% 25% 0% 10%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-  
+  #home-text a{
+    text-decoration: none;
+    color: white;
+  }
+
+  #home-text:hover a{
+    text-decoration: none;
+    color: red;
+  }
 
 
 
