@@ -99,6 +99,9 @@
     height: 130vh;
 
   }
+  #about-page-text-container img {
+    transform: rotate(90deg);
+  }
 
 }
 @media (max-width: 414px) {
@@ -112,6 +115,9 @@
   #about-page-text-container {
     height: 130vh;
 
+  }
+  #about-page-text-container img {
+    transform: rotate(90deg);
   }
 
 }
