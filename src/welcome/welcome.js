@@ -1,5 +1,6 @@
 import React from 'react'
 import './welcome.css'
+import { Link } from 'react-router-dom'
 
 const greeting = () => {
   let today = new Date()
@@ -24,8 +25,8 @@ const Welcome = () => {
               i'm vanessa, a software engineer
               <br />
               based in brooklyn, ny.
-              <p id='home-text'><a href="/portfolio"> portfolio</a></p>
-              <p id='home-text'><a href="/reachMe"> contact</a></p>
+              <p id='home-text'><Link to="/portfolio"> portfolio</Link></p>
+              <p id='home-text'><Link to="/reachMe"> contact</Link></p>
             </div>
           </div>
         </div>

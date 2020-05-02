@@ -64,17 +64,18 @@
 
 #home-text{
   font-size: 12px;
-  border-bottom: 1px solid white;
   width: 8vw;
-  padding: 1em;
+  padding: 2em;
   text-align: center;
 }
   #home-text a{
     text-decoration: none;
+    border-bottom: 1px solid white;
     color: white;
+    padding: 2em;
   }
 
-  #home-text:hover a{
+  #home-text a:hover{
     text-decoration: none;
     color: red;
   }

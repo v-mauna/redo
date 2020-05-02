@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavHashLink as NavLink } from 'react-router-hash-link'
+
 import './navbar.css'
 import { Link } from 'react-router-dom'
 
